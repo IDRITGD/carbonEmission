@@ -165,23 +165,3 @@ outputFile.write("==============================================================
                  "============================================================================================" + "\n")
 
 outputFile.close()
-
-# 窗口打印
-print("能耗kJ")
-
-
-"""
-outputFile = open(path + "//" + fileName + '.txt', 'r')
-output = outputFile.readlines()
-for x in output:
-    print(x, end='')
-print("污水处理单元CO2排放（kg): 直接排放, 电耗排放, 药耗排放")
-print(EmCO2, elecCO2, chemCO2)
-print("污泥处置单元CO2排放（kg): 直接排放, 能耗排放, 资源回用消减")
-print(emissionCO2, energyCO2, avoidCO2)
-print("污泥处置单元能耗: 电能(kWh/t sludge），化石能(kJ/t sludge），总能源再生(kJ）")
-print(electricity, diesel, renew)
-print("污泥产量（kg）：", end="")
-print(sludge)
-"""
-print("DONE!!!")
